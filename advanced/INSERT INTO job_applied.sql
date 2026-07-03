@@ -1,0 +1,58 @@
+INSERT INTO job_applied
+(
+    job_id,
+    application_sent_date,
+    custom_resume,
+    resume_file_name,
+    cover_letter_sent,
+    cover_letter_file_name,
+    status
+)
+VALUES
+(
+    1,
+    '2024-06-01',
+    TRUE,
+    'resume_john_doe.pdf',
+    'Yes',
+    'cover_letter_01.pdf',
+    'Pending'
+),
+(
+    2,
+    '2024-06-02',
+    FALSE,
+    NULL,
+    'No',
+    NULL,
+    'Pending'
+),
+(
+    3,
+    '2024-06-03',
+    TRUE,
+    'resume_jane_smith.pdf',
+    'Yes',
+    'cover_letter_02.pdf',
+    'Pending'
+),
+(
+    4,
+    '2024-06-04',
+    FALSE,
+    NULL,
+    'No',
+    NULL,
+    'Pending'
+),
+(
+    5,
+    '2024-06-05',
+    TRUE,
+    'resume_emily_jones.pdf',
+    'Yes',
+    'cover_letter_03.pdf',
+    'Pending'
+);
+
+SELECT * FROM job_applied;
