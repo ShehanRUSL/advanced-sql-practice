@@ -20,6 +20,18 @@ The exercises use a job postings dataset, including:
 - `skills_dim`
 - `skills_job_dim`
 
+## 🔍 The Analysis
+
+Here's the breakdown of the top data analyst jobs:
+
+- **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
+- **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
+- **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
+
+![Top Paying Data Analyst Jobs and Skills](assets/graph.png)
+
+*Visualization showing the top-paying Data Analyst jobs and the most frequently required skills for those roles, generated using ChatGPT based on my SQL query results.*
+
 ## 🎯 Goal
 To strengthen my SQL skills by solving real-world data analysis problems and preparing for Data Analyst roles.
 
