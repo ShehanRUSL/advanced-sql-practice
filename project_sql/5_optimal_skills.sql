@@ -7,7 +7,6 @@ Answer: What are the most optimal skills to learn (aka it’s in high demand and
 */
 
 -- Identifies skills in high demand for Data Analyst roles
--- Use Query #3
 WITH skills_demand AS (
     SELECT
         skills_dim.skill_id,
@@ -24,7 +23,7 @@ WITH skills_demand AS (
         skills_dim.skill_id
 ), 
 -- Skills with high average salaries for Data Analyst roles
--- Use Query #4
+
 average_salary AS (
     SELECT 
         skills_job_dim.skill_id,
@@ -52,7 +51,7 @@ WHERE
     demand_count > 10
 ORDER BY
     avg_salary DESC,
-    demand_count DESC
+    demand_count DESC;
 
 
 -- rewriting this same query more concisely
